@@ -4,9 +4,19 @@ const TaskList = ({opcion}) => {
   return (
     <>
       <div className={TaskListStyles.container}>
-          {opcion.map((item, index) => {
-            return <p key={index}>{item.actividad}</p>
-          })}
+          {
+            opcion.length == 0 ?
+              <h3>¡Tu carrito de compras está vacío!</h3>            
+            :
+              <>
+              <h3>¡Carrito de compras!</h3>            
+              {opcion.map((item, index) => {
+                return <p key={index}>{item.actividad}</p>
+              })}
+
+              </>
+
+          }
       </div>  
     </>
   )

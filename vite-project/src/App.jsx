@@ -8,6 +8,7 @@ function App() {
     <>
       <NavBar/>
       <Form/>
+      <hr style={{margin: 36}}/>
       <ToDoMain/>
     </>
   )

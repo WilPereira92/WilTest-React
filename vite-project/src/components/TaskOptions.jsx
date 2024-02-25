@@ -10,7 +10,7 @@ const TaskOptions = ({actividad, opcion, setList}) => {
         <div className={TaskOptionStyles.btnStyle} onClick={addList}>
           <h3>{actividad.actividad}</h3>
         </div>
-        <CounterTaskOptions/>
+        <CounterTaskOptions actividad={actividad} opcion={opcion} setList={setList}/>
     </div>
     </>
   )

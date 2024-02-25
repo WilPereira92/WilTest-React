@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    padding: 2rem 5rem;
+
+    
+}
+
+.titleApp {
+    font-size: 2rem;
+}
+
+
+
+.listUl {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 4rem;
+    align-items: center;
+    height: 100%;
+}

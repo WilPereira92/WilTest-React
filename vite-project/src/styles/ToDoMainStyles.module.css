@@ -1,0 +1,14 @@
+.container {
+    padding: 1rem 1rem;
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+}
+
+.taskListStyles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem;
+}

@@ -1,0 +1,10 @@
+.btnStyle {
+    padding: 2rem;
+    background-color: rgba(153, 205, 50, 0.50);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.btnStyle:hover {
+    background-color: yellowgreen;
+}

@@ -1,0 +1,35 @@
+.formContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+}
+
+.inputStyle {
+    display: flex;
+    gap: 1rem;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.btnStyle {
+    background-color: rgba(153, 205, 50, 0.50);
+    cursor: pointer;
+}
+
+.btnStyle:hover {
+    background-color: yellowgreen;
+}
+
+.showErrorForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    color: red;
+}

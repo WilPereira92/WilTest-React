@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    align-items: center;
+    margin: 1.5rem;
+    gap: 0.5rem;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
